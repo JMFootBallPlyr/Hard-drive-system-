@@ -1,0 +1,43 @@
+* (3.1) install and configure laptop hardware and components
+    * expansion options
+        * Expresscard /34
+        * Expresscard /54
+        * SODIMM
+        * flash
+        * ports/adapters
+            * thunderbolt
+            * display port
+            * USB to RJ-45 dongle
+            * USB to WiFi dongle
+            * USB to Bluetooth
+            * USB optical drive
+    * hardware/device replacement
+        * keyboard
+        * hard drive
+            * SSD versus hybrid versus magnetic disk
+            * 1.8" versus 2.5"
+        * memory
+        * Smartcard reader
+        * optical drive
+        * wireless card
+        * Mini-PCIe
+        * screen
+        * DC jack
+        * battery
+        * touchpad
+        * plastics/frames
+        * speaker
+        * system board
+        * CPU
+
+* (3.2) explain the function of components within the display of a laptop
+    * types
+        * LCD
+            * TTL versus IPS
+            * fluorescent versus LED
+        * OLED
+    * WiFi antenna connector/placement
+    * wobcam
+    * micrephone
+    * inverter
+    * digitiser

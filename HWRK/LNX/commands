@@ -1,0 +1,101 @@
+#!/bin/sh
+#
+# Author: eunjae
+# Github: https://github.com/mineunjae
+#
+
+## 01
+mv ordner2/ordner1 ordner2/ordner3 &&
+#‘ordner2/ordner1’ -> ‘ordner2/ordner3’
+
+
+## 02
+mkdir ordner1/ordner4 &&
+#mkdir: created directory ‘ordner1/ordner4’
+
+
+## 03
+cp ordner2/ordner3/{ASQZABTYVQ.TXT,YQJLDMBYEB.HTM} ordner1/ordner4/ &&
+#‘ordner2/ordner3/ASQZABTYVQ.TXT’ -> ‘ordner1/ordner4/ASQZABTYVQ.TXT’
+#‘ordner2/ordner3/YQJLDMBYEB.HTM’ -> ‘ordner1/ordner4/YQJLDMBYEB.HTM’
+
+
+## 04
+mv ordner1/{ATMMOMPHQG.HTM,ZIJLDWSNYL.TXT} ordner1/ordner4/ &&
+#‘ordner1/ATMMOMPHQG.HTM’ -> ‘ordner1/ordner4/ATMMOMPHQG.HTM’
+#‘ordner1/ZIJLDWSNYL.TXT’ -> ‘ordner1/ordner4/ZIJLDWSNYL.TXT’
+
+
+## 05
+echo 'Charlotte Zeeb' > ordner1/ordner4/LIESMICH.TXT &&
+#cat ordner1/ordner4/LIESMICH.TXT 
+#Charlotte Zeeb
+
+
+## 06
+cp -r ordner2/ordner3 ordner1/ &&
+#‘ordner2/ordner3’ -> ‘ordner1/ordner3’
+#[ Und ziemlich viele Dateien... ]
+
+
+## 07
+mv ordner2/ ordner1/ &&
+#‘ordner2/’ -> ‘ordner1/ordner2’
+
+
+## 08
+mv ordner1/ATMMOMPHQG.TXT ordner1/ABCDEFGHIJ.TXT &&
+#‘ordner1/ATMMOMPHQG.TXT’ -> ‘ordner1/ABCDEFGHIJ.TXT’
+
+
+## 09
+rm -rf ordner5  &&
+#removed ‘ordner5/QWERTZUIOP.TXT’
+#removed directory: ‘ordner5’
+
+
+## 10
+rm ordner1/ordner3/KZTAGSWKSP.HTM  &&
+#removed ‘ordner1/ordner3/KZTAGSWKSP.HTM’
+
+
+## 11
+ln -s ordner1/ordner2/ordner3 ordner1/ordner1-2-3 &&
+#ls -l ordner1/ordner1-2-3
+#lrwxrwxrwx 1 eunjae users 23 Jan 12 20:52 ordner1/ordner1-2-3 -> ordner1/ordner2/ordner3
+
+
+## 12
+ln -s ordner1/ordner4/LIESMICH.TXT ordner1/LIESMICH.TXT &&
+#ls -l ordner1/LIESMICH.TXT
+#lrwxrwxrwx 1 eunjae users 28 Jan 12 21:14 ordner1/LIESMICH.TXT -> ordner1/ordner4/LIESMICH.TXT
+
+
+## 13
+find ./ordner1 -name "*DM*.HTM" -exec mv '{}' ordner1/ordner4/ \; &&
+#mv: ‘./ordner1/ordner4/YQJLDMBYEB.HTM’ and ‘ordner1/ordner4/YQJLDMBYEB.HTM’ are the same file
+#mv: ‘./ordner1/ordner4/HBLQZRDMUR.HTM’ and ‘ordner1/ordner4/HBLQZRDMUR.HTM’ are the same file
+#mv: ‘./ordner1/ordner4/XIIFGSDMVS.HTM’ and ‘ordner1/ordner4/XIIFGSDMVS.HTM’ are the same file
+
+#find ./ordner1 -name "*DM*.HTM" -print                           
+#./ordner1/ordner4/YQJLDMBYEB.HTM
+#./ordner1/ordner4/HBLQZRDMUR.HTM
+#./ordner1/ordner4/XIIFGSDMVS.HTM
+#./ordner1/ordner4/PPBITOKDMT.HTM
+#./ordner1/ordner4/ZIRFHZSDMR.HTM
+
+
+## 14
+mv `find ./ordner1 | xargs grep 417 -sl` ordner1/ordner4/
+#‘./ordner1/RUVTEYTGYC.HTM’ -> ‘ordner1/ordner4/RUVTEYTGYC.HTM’
+#‘./ordner1/DGLGLRVAKR.TXT’ -> ‘ordner1/ordner4/DGLGLRVAKR.TXT’
+#‘./ordner1/ordner3/TNDLULRSOT.HTM’ -> ‘ordner1/ordner4/TNDLULRSOT.HTM’
+#‘./ordner1/ordner3/TNDLULRSOT.TXT’ -> ‘ordner1/ordner4/TNDLULRSOT.TXT’
+#‘./ordner1/ordner2/TNYTUUHKFY.TXT’ -> ‘ordner1/ordner4/TNYTUUHKFY.TXT’
+#mv: will not overwrite just-created ‘ordner1/ordner4/TNDLULRSOT.HTM’ with ‘./ordner1/ordner2/ordner3/TNDLULRSOT.HTM’
+#mv: will not overwrite just-created ‘ordner1/ordner4/TNDLULRSOT.TXT’ with ‘./ordner1/ordner2/ordner3/TNDLULRSOT.TXT’
+#‘./ordner1/ordner2/SKJVFNVHTN.TXT’ -> ‘ordner1/ordner4/SKJVFNVHTN.TXT’
+#‘./ordner1/ordner2/TNYTUUHKFY.HTM’ -> ‘ordner1/ordner4/TNYTUUHKFY.HTM’
+#‘./ordner1/ordner2/SKJVFNVHTN.HTM’ -> ‘ordner1/ordner4/SKJVFNVHTN.HTM’
+#‘./ordner1/DGLGLRVAKR.HTM’ -> ‘ordner1/ordner4/DGLGLRVAKR.HTM’
+#‘./ordner1/RUVTEYTGYC.TXT’ -> ‘ordner1/ordner4/RUVTEYTGYC.TXT’

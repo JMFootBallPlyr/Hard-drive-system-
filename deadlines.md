@@ -8,7 +8,7 @@
   
 **2016/02/08**  
 **ITS**  
-(3.1) install and configure laptop hardware and components  
+* (3.1) install and configure laptop hardware and components  
 * information sheets (2)  
   
 **2016/02/08**  

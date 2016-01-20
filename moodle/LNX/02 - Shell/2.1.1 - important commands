@@ -1,0 +1,54 @@
+		UE : Wichtige Kommandos und Arbeiten mit der Shell
+
+An der Eingabeaufforderung (Prompt) der Shell kann man dem System Befehle erteilen, die es 
+dann ausführt. Die Shell liest jeeweils eine ganz eingegebene Zeile ein (Kommandozeile) und 
+interpretiert sie anschließend. Dabei wird Groß- und Kleinschreibung unterschieden. Eine 
+Zeile wird beendet, indem die Eingabetaste (auch „Return“ oder „Enter“) gedrückt wird.
+Kommandozeilenbefehle unter Linux sind immer nach dem gleichen Schema aufgebaut. Nach dem 
+eigentlichen Befehlsnamen können Optionen zu dem Befehl angegeben werden auf die dann 
+Parameter folgen. Optionen und Parameter des Befehls werden auch als Argumente des Befehls 
+bezeichnet. Der Befehl, die Optionen und die Parameter werden durch ein oder mehrere 
+Leerzeichen voneinander getrennt.
+
+Vervollständigen Sie die folgende Tabelle um fehlende Informationen bzw. folgende Kommandos.
+ 
+date, who, which, uname, wc, pwd, ls, mkdir, cd, rmdir, rm, 
+cp, mv, cat, less, grep, tar, gzip. touch, ln, type
+
+             
+	Befehl                    	|             Erläuterungen
+-------------------------------------------------------------------------------------------
+date (ohne Argumente)			| ... gibt das aktuelle Datum und die Uhrzeit aus.
+					|     date 
+					|     Sa 27. Aug 13:58:25 CEST 2011
+-------------------------------------------------------------------------------------------
+date -I					| ... gibt das aktuelle Datum im ISO-8601-konformen
+					|     Format aus.
+					|     date -I
+					|     2011-08-27
+-------------------------------------------------------------------------------------------
+uname					|
+-------------------------------------------------------------------------------------------
+uname -a				|
+-------------------------------------------------------------------------------------------
+who					|
+-------------------------------------------------------------------------------------------
+who am i				|
+-------------------------------------------------------------------------------------------
+wc -l					|
+-------------------------------------------------------------------------------------------
+wc -l- w				|
+-------------------------------------------------------------------------------------------
+					|
+-------------------------------------------------------------------------------------------
+					|
+-------------------------------------------------------------------------------------------
+					|
+-------------------------------------------------------------------------------------------
+					|
+-------------------------------------------------------------------------------------------
+					|
+-------------------------------------------------------------------------------------------
+					|
+-------------------------------------------------------------------------------------------
+	

@@ -24,4 +24,9 @@ https://en.wikipedia.org/wiki/Library_%28computing%29
 **102.4**  
 https://en.wikipedia.org/wiki/Dpkg  
 http://man.he.net/man1/dpkg  
-
+  
+**102.5**  
+https://fedoraproject.org/wiki/Yum  
+  
+**103.8**  
+http://www.jerrywang.net/vi/  

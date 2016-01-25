@@ -7,6 +7,10 @@
 * presentation upload  
   
 **2016/02/08**  
+**BP**  
+* watch movie regarding EZB and formulate a brief statement
+
+**2016/02/08**  
 **UF**  
 * Modul A  
   
@@ -24,5 +28,5 @@
 * Modul B  
   
 **2016/04/25**  
-**BP**  
+**UF**  
 * presentation  

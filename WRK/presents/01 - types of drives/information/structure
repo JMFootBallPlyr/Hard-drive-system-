@@ -2,10 +2,10 @@
 ###
 
 * Allgemeines
-* Baugrößen
+* Baugrößen (*)
 * Speichergrößen
-* Aufbau
-* Schnittstellen
+* Aufbau (*)
+* Schnittstellen (*)
 * Schreibgeschwindigkeiten (Im Vergleich)
 * (RAIDs vielleicht?)
 * Fehlererkennung (bzw. S.M.A.R.T)
@@ -17,8 +17,8 @@
 
 * Allgemeines
 * Speichergrößen
-* Architektur-Vergleich (SLC zu MLC, NAND zu NOR)
-* Schreibzyklen
+* Architektur-Vergleich (SLC zu MLC, NAND zu NOR) (*)
+* Schreibzyklen (*)
 * Vergleich von €/GB zu HDD
 * Ergonomie/Ökonomie, leiser, stromsparender etc.
 * Fehlererkennung
@@ -33,3 +33,4 @@
 * Dual-drive hybrid systems
 * Solid-state hybrid drive
 * Vor- und Nachteile gegenüber HDD, SSD
+* Fazit

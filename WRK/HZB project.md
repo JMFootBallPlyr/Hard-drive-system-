@@ -10,7 +10,7 @@
 \* Bei der Senatskanzlei kann man diese nachschlagen.  
 \* HZB Comm anschreiben  
   
-
+  
 **LINKS**  
   
 \* http://www.dihk.de/themenfelder/aus-und-weiterbildung/bildung-international/auslandsaufenthalte-waehrend-der-ausbildung/wie-azubis-ins-ausland-kommen

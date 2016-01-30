@@ -17,12 +17,13 @@
 
 * Allgemeines
 * Speichergrößen
-* Architektur-Vergleich (SLC zu MLC, NAND zu NOR) (*)
+* Speicherarchitektur-Vergleich (SLC zu MLC, NAND zu NOR) (*)
 * Schreibzyklen (*)
-* Vergleich von €/GB zu HDD
-* Ergonomie/Ökonomie, leiser, stromsparender etc.
+* Preis-/Leistungsvergleich
+* Ergonomimie/Ökonomie
 * Fehlererkennung
 * Vor- und Nachteile Tabelle im Vergleich zu HDD
+* Einsatzgebiete
 * Fazit
  
 
@@ -32,5 +33,6 @@
 * Allgemeines
 * Dual-drive hybrid systems
 * Solid-state hybrid drive
-* Vor- und Nachteile gegenüber HDD, SSD
+* Vor- und Nachteile gegenüber HDD/SSD
+* Einsatzgebiete
 * Fazit

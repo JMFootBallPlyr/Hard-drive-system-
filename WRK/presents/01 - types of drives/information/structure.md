@@ -1,3 +1,28 @@
+**SCHNITTSTELLEN**
+
+SATA
+    * SATA Revision 3.x (6 Gbit/s)
+    * SATA Express (8 Gbit/s)
+
+Small Computer System Interface (SCSI)
+    *
+    *
+    *
+    *
+
+    * Serial Attached SCSI (SAS)
+        * 
+        * 12 Gbit/s
+        * SATA abwärtskompatible Stecker
+        *
+
+    * Fibre Channel Interface
+        * für Storage Area Netzwerke (SAN) konzipiert
+        * 16 Gbit/s
+        * Kupferkabel (innerhalb Storage-Systeme)
+        * Glasfaser (von System zu System)
+
+
 # HDD
 ###
 

@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Restricted Area. Developer Review."
+AuthUserFile "/usr/local/apache2/etc/rev2_ITE6_en_dev_passwd"
+require valid-user
+AddType application/octet-stream .pka
+

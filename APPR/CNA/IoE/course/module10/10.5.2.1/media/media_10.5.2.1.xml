@@ -1,0 +1,345 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Common Problems and Solutions</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions for Mobile Device Operating Systems</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identify the Problem</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Probable Causes</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>Possible Solutions</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The mobile device will not connect to the Internet.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Wi-Fi is turned off.</li>
+                            <li>Wi-Fi settings are incorrect.</li>
+                            <li>Airplane mode is turned on.</li></ul>
+                             
+                        </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Turn on Wi-Fi.</li>
+                            <li>Reconfigure the Wi-Fi settings.</li>
+                            <li>Turn off Airplane mode.</li></ul>
+                           
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>An app fails to respond.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>The app does not work correctly.</li>
+                            <li>The app failed to close.</li></ul>
+                           
+                        </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                                <ul><li>Force the app to close.</li>
+                                <li>Restart the mobile device.</li>
+                                <li>Reinstall the app.</li>
+                                <li>Remove and reinsert the battery, if possible.</li>
+                                <li>Reset the mobile device.</li></ul>
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+           
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The mobile device fails to respond.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>The operating system has encountered an error.</li>
+                            <li>An app has caused the operating system to become unresponsive.</li></ul>
+
+                            
+                             
+                        </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                                <ul><li>Restart the mobile device.</li>
+                                <li>Remove and reinsert the battery, if possible.</li>
+                                <li>Reset the mobile device.</li></ul>
+
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The mobile device cannot send or receive email.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            
+                            <ul><li>The mobile device is not connected to the Internet.</li>
+                            <li>The email account settings are incorrect.</li></ul>
+                             
+                        </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                               <ul><li>Connect the device to a Wi-Fi or cellular data network.</li>
+                                <li>Reconfigure the email account settings.</li></ul>
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+
+           
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The mobile device cannot install additional apps or save photos.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       The mobile device is out of storage space.
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                                <ul><li>Insert a memory card or replace the memory card with a larger one, if possible.</li>
+                                <li>Remove unnecessary files.</li>
+                                <li>Uninstall unnecessary apps.</li></ul>
+  
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>A mobile device cannot connect with a Bluetooth device.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       <textformat blockindent='-18'>
+                        <ul><li>Bluetooth is not enabled on the mobile device.</li>
+                        <li>The Bluetooth device is out of range of the mobile device.</li>
+                        <li>The Bluetooth device is not turned on.</li></ul>
+                       </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Enable Bluetooth on the mobile device.</li>
+                            <li>Move the Bluetooth device to within range of the mobile device.</li>
+                            <li>Turn on the Bluetooth device.</li></ul>
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>A mobile device cannot pair with a Bluetooth device.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       <textformat blockindent='-18'>
+                        <ul><li>Bluetooth is not enabled on the mobile device.</li>
+                        <li>The Bluetooth device is not turned on.</li>
+                        <li>The pin code is incorrect.</li></ul>
+                            
+                       </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Enable Bluetooth on the mobile device.</li>
+                            <li>Turn on the Bluetooth device.</li>
+                            <li>Enter the correct pin code.</li></ul>
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+        </table>]]></text>
+    </component>
+    
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Common Problems and Solutions</b>]]></text> 
+    </component>
+    
+    <component id="ID_s2_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions for Linux and OS X Operating Systems</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identify the Problem</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Probable Causes</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>Possible Solutions</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The automatic backup operation does not start. </font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       <textformat blockindent='-18'>
+                            <ul><li>Time Machine is turned off in OS X.</li>
+                            <li> Deja Dup is turned off in Linux.</li></ul>
+                       </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Turn on Time Machine in OS X.</li>
+                            <li>Turn on Dejà Dup in Linux.</li></ul>
+
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The directory appears empty.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       <textformat blockindent='-18'>
+                        <ul><li>The directory is the mount point for another disk or partition.</li>
+                        <li>The files were accidentally deleted.</li></ul>
+                       </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Remount the disk using the correct directory with Disk Utility for OS X.</li>
+                            <li>Remount the disk using the correct directory with Disks for Linux.</li>
+                            <li>Restore the deleted files from backup using Time Machine or Dejà Dup.</li></ul>
+
+                            
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>An application stops responding in OS X.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       <textformat blockindent='-18'>
+                        <ul><li>The application has stopped working.</li>
+                        <li>The application was using a resource that became unavailable.</li></ul>  
+                       </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Force Quit the application. </li></ul>
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Wi-Fi is not accessible using Ubuntu.</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       <textformat blockindent='-18'>
+                        <ul><li>The wireless NIC driver did not install correctly. </li></ul>
+                         
+                       </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Install the Linux driver from the manufacturer’s website, if available.</li>
+                            <li>Install the Linux driver from the Ubuntu repositories, if available.</li></ul>
+
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>OS X cannot read the remote optical disc using Remote Disc.
+</font></td>
+
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       <textformat blockindent='-18'>
+                       <ul> <li>The Mac already has an optical drive installed.</li>
+                        <li>The option to request permission to use the optical drive has been enabled.</li></ul>
+
+                       </textformat>
+                   </font>
+                </td>
+                <td bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        <textformat blockindent='-18'>
+                            <ul><li>Place the media in the local optical drive.</li>
+                            <li>Accept the request for permission to use the drive.</li></ul>
+
+
+                        </textformat>
+                   </font>
+                </td>
+            </tr>
+            
+           
+            
+            
+           
+            
+
+             
+
+            
+           
+           
+        </table>]]></text>
+        
+    </component>
+</textcomponents>

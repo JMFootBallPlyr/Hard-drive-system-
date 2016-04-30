@@ -1,0 +1,82 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>How to Put a Customer On Hold</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top" width='315'><font color='#FFFFFF' ><b>Do</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Do Not</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Let the customer finish explaining the problem.</td>
+			<td bgcolor='#E9E7E8'>Interrupt the customer.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Say that you must put the customer on hold and explain why. Ask the customer for permission to put the call on hold.</td>
+			<td bgcolor='#E9E7E8'>Put a customer on hold without an explanation.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>When the customer agrees, thank the customer and explain that you expect to be back in just a few minutes. Explain what you will be doing during that time.</td>
+			<td bgcolor='#E9E7E8'>Put a customer on hold without the customer’s consent.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>If, after placing the call on hold, it takes longer to return to the customer than expected, quickly get back on the call to explain the situation to the customer.</td>
+			<td bgcolor='#E9E7E8'>Assume that your time is more valuable than the customer’s time.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Always thank the customer for their patience as you work to fix their problem.</td>
+			<td bgcolor='#E9E7E8'>Assume that your time is more valuable than the customer’s time.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+	
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+    
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>How to Transfer a Call</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top" width='315'><font color='#FFFFFF' ><b>Do</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Do Not</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Let the customer finish explaining the problem.</td>
+			<td bgcolor='#E9E7E8'>Interrupt the customer.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Say that you must transfer the call and why. Tell the customer the name and number of the person they will be speaking with. Ask the customer for permission to transfer the call.</td>
+			<td bgcolor='#E9E7E8'>Transfer the call without an explanation.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>When the customer agrees, thank the customer and begin the transfer.</td>
+			<td bgcolor='#E9E7E8'>Transfer the call without the customer’s consent.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Tell the new technician who will be receiving the transfer your name, the ticket number, and the customer’s name.</td>
+			<td bgcolor='#E9E7E8'>Assume that your time is more valuable than the customer’s time.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.1.1.5 TCP/IP Attacks</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.1.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>TCP/IP Attacks</h1>
+        <div>
+          <p>To control communication on the Internet, your computer uses the TCP/IP protocol suite. Unfortunately, some features of TCP/IP can be manipulated, resulting in network vulnerabilities.</p>
+          <p></p>
+          <p>As shown in Figure 1, TCP/IP is vulnerable to the following types of attacks:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Denial of Service (DoS) – </b>(Figure 2) DoS is a type of attack that creates an abnormally large amount of requests to network servers, such as email or web servers. The goal of the attack is to completely overwhelm the server with false requests creating a denial of service for legitimate users.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Distributed DoS (DDoS) – </b>(Figure 3) A DDoS attack is like a DoS attack but is created using many more computers, sometimes in the thousands, to launch the attack. The computers are first infected with DDoS malware and then become zombies, an army of zombies, or botnets. After the computers become infected, they sit dormant until they are required to create a DDoS attack. Zombie computers located at different geographical locations make it difficult to trace the origin of the attack.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>SYN Flood – </b>(Figure 4) A SYN request is the initial communication sent to establish a TCP connection. A SYN flood attack randomly opens TCP ports at the source of the attack and ties up the network equipment or computer with a large amount of false SYN requests. This causes sessions to be denied to others. A SYN flood attack is a type of DoS attack.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Spoofing - </b>In a spoofing attack, a computer pretends to be a trusted computer to gain access to resources. The computer uses a forged IP or MAC address to impersonate a computer that is trusted on the network. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Man-in-the-Middle – </b>(Figure 5) An attacker performs a man-in-the-middle (MitM) attack by intercepting communications between computers to steal information transiting through the network. A MitM attack could also be used to manipulate messages and relay false information between hosts, because the hosts are unaware that the messages have been modified. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Replay - </b>To perform a replay attack, data transmissions are intercepted and recorded by an attacker. These transmissions are then replayed to the destination computer. The destination computer handles these replayed transmissions as authentic and sent by the original source. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>DNS Poisoning - </b>DNS records on a system are changed to point to imposter servers. The user attempts to access a legitimate site, but traffic is diverted to an imposter site. The imposter site is used to capture confidential information, such as usernames and passwords. An attacker can then retrieve the data from that location.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Resize" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

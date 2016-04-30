@@ -1,0 +1,127 @@
+<textcomponents>
+	<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Problem Symptom</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Problem Causes</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>A wireless network is compromised even though 128-bit WEP encryption is in use.</td>
+		<td bgcolor='#E9E7E8'>A hacker issuing commonly available wireless hacking tools to crack the encryption.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+			<ul>
+			<li>Upgrade to WPA Encryption.</li>
+			<li>Add MAC address filtering for older clients that do not support WPA.</li>
+		   </ul>
+		</textformat>
+	</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>A user is receiving hundreds or thousands of junk emails each day.</td>
+		<td bgcolor='#F2F2F2'>The network is not providing detection or protection for the email server from spammers.</td>		
+		<td bgcolor='#F2F2F2'>Install antivirus or an email software program that removes spam from an email inbox.</td>
+	</tr>
+	
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>An unknown printer repair person is observed looking under keyboards and on desktops.</td>
+		<td bgcolor='#E9E7E8'>Visitors are not being monitored properly or user credentials have been stolen to enter the building.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+			<ul>
+			<li>Contact security or police.</li>
+			<li>Advise users never to hide passwords near their work area.</li>
+		   </ul>
+		</textformat>
+	    </td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>An unauthorized wireless access point is discovered on the network.</td>
+		<td bgcolor='#F2F2F2'>A user has added a wireless access point to increase the wireless range of the company network.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+			<ul>
+			<li>Disconnect and confiscate the unauthorized device.</li>
+			<li>Enforce security policy by taking action against the person responsible for the security breech.</li>
+		   </ul>
+		</textformat>
+	    </td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Users with flash drives are infecting computers on the network with viruses.</td>
+		<td bgcolor='#E9E7E8'>The flash drive is infected with a virus and is not scanned by virus protection software when a network computer accesses it.</td>
+		<td bgcolor='#E9E7E8'>Set virus protection software to scan removable media when data is accessed.</td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>A Security Alert is displayed.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+			<ul>
+			<li>The Windows Firewall is turned off.</li>
+			<li>Virus definitions are out of date.</li>
+			<li>Malware has been detected.</li>
+		   </ul>
+		</textformat>
+	</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+			<ul>
+			<li>Turn on Windows Firewall.</li>
+			<li>Update virus definitions.</li>
+			<li>Scan the computer to remove any malware.</li>
+		   </ul>
+		</textformat>
+	   </td>
+	</tr>
+	
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>Windows Update fails.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+			<ul>
+			<li>The downloaded update is corrupted.</li>
+			<li>The update requires a previous update that is not installed.</li>
+		   </ul>
+		</textformat>
+	   </td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+			<ul>
+			<li>Download the update manually and install.</li>
+			<li>Use System Restore to restore the computer to a time before the attempted update.</li>
+			<li>Restore the computer from a backup.</li>
+		   </ul>
+		</textformat>
+		</td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>System files have been renamed.</td>
+		<td bgcolor='#F2F2F2'>The computer has a virus.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+			<ul>
+			<li>Remove the virus using antivirus software.</li>
+			<li>Restore the computer from a backup.</li>
+		   </ul>
+		</textformat>
+	</td>
+	</tr>
+ 
+    <tr class="mtable">
+		<td bgcolor='#E9E7E8'>Your email contacts report spam coming from your address.</td>
+		<td bgcolor='#E9E7E8'>Your email has been hijacked.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+			<ul>
+			<li>Change your email password.</li>
+			<li>Contact the email service support to reset the account.</li>
+		   </ul>
+		</textformat>
+	</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,10 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[CompTIA A+]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[A+ is the starting point for a career in IT. The performance-based exams certify foundational IT skills across a variety of devices and operating systems.]]></text>
+	</component>
+
+</textcomponents>

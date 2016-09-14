@@ -11,11 +11,9 @@ import java.util.Scanner;
 public class X42 {
 
 // fac() start
-    public static int fac(int fact, int c, int x) {
-        int n = 1;
-
-        for (c = 1; c <= n; c++) {
-            fact = x*c;
+    public static int fac(int n) {
+        for (int c = 1; c <= n; c++) {
+            int fact = n*c;
         }
         return fact;
     }
@@ -23,21 +21,19 @@ public class X42 {
 
 // main() start
     public static void main(String[] args) {
-        int c = 1;
-        int x, res;
-        int n = 1;
- 
         System.out.println("Enter an integer to calculate it's factorial: ");
         Scanner in = new Scanner(System.in);
         
-        x = in.nextInt();
+        int n;
+        n = in.nextInt();
         in.close();
-        
-        if (x < 0)
+
+        int res;
+        if (n < 0)
             System.out.println("Number should be non-negative.");
             else {
-                res = fac(x);
-                System.out.println("Factorial of "+x+" is = "+res);
+                res = fac(n);
+                System.out.println("Factorial of "+n+" is = "+res);
         }
 
     }

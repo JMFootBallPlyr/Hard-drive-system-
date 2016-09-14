@@ -7,22 +7,18 @@
 // Utils import
 
 // Class declaration start
-public class $class {
+public class X51 {
+    float radius;
+    float pi = 3.14f;
 
-// Constructor start
-    public $class {
+//  area(), circ() start
+    public float area() {
+        return (pi*(radius*radius));
     }
-// Constructor end
-
-// $method() start
-    public static $type () {
+    public float circ() {
+        return (2*pi*radius);
     }
-// $method() end
-//
-// $function() start
-    public $type $name () {
-    }
-// $function() end
+// area(), circ() end
 
 // main() start
     public static void main(String[] args) {

@@ -1,0 +1,17 @@
+# 1
+
+Kommentierung ist aus verschiedenen Gründen wichtig. Der wichtigsten zwei sind wohl die Wegweiser- und Erklärungsfunktionen, die sie in einem kurzen, aber vor allem langen Sourcecode übernimmt. Es hilft einem selbst und, wenn man in Kollaboration mit anderen arbeitet, den anderen sich zurechtzufinden und Befehle nachvollziehen zu können.
+
+
+# 2
+
+Funktion des Scanners wird eingebunden.
+Public class 'maßeinheiten' wird erstellt.
+Public static void main wird geöffnet.
+'meile' wird der finale, nicht veränderbare Wert '1.609344F' in float zugeteilt.
+'Kilometer' wird als float deklariert.
+Scanner wird der Name 'x' zugeteilt.
+'Kilometer eingeben: ' wird in der Konsole ausgegeben, der Benutzer wird zu einer Eingabe aufgefordert.
+'Kilometer' wird durch die Eingabe Benutzers deklariert und wird durch den Scanner 'x' aufgenommen'.
+Es wird ausgegeben '= ' und anschließend die Variable 'Kilometer / meile', die aber so nicht existiert.
+Anschließend wird die Funktion und die public class geschlossen.

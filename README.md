@@ -1,5 +1,5 @@
 **Disclaimer**  
-All of the stuff ever created during my IT apprenticeship.  
+All of the stuff ever created during my IT apprenticeship. Well, more or less.  
   
 **Log**  
 [ 2016/09/19 ] Okay, seriously, fuck moodle. Deleted.  

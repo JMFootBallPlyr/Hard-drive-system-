@@ -7,10 +7,10 @@
 // Utils import
 
 // Class declaration start
-public class Books {
+public class Person {
 
 // Constructor start
-    public Books() {
+    public Person() {
     }
 // Constructor end
 

@@ -5,16 +5,33 @@
 */
 
 // Utils import
+import java.io*;
 
 // Class declaration start
-public class $ {
+public class Library {
 
 // Constructor start
-    public $() {
+    public Library() {
     }
 // Constructor end
 
 // Methods start
+    // Simulate the whole thing.
+    public void sim() {
+
+    }
+
+    // Add a book to the library.
+    public void bookAdd() {
+    }
+
+    // Remove a book from the library.
+    public void bookRem() {
+    }
+
+    // List the current books (and their status?)
+    public void bookList() {
+    }
 // Methods end
 
 // Functions start

@@ -7,10 +7,10 @@
 // Utils import
 
 // Class declaration start
-public class $ {
+public class Libcard {
 
 // Constructor start
-    public $() {
+    public Libcard() {
     }
 // Constructor end
 

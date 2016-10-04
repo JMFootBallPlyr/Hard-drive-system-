@@ -7,10 +7,10 @@
 // Utils import
 
 // Class declaration start
-public class Libcardix {
+public class Libcardindex {
 
 // Constructor start
-    public Libcardix() {
+    public Libcardindex() {
     }
 // Constructor end
 

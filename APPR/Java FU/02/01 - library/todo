@@ -1,0 +1,15 @@
+## GUI ##{{{
+
+# 1
+    * new user for library
+    * list for all user-objects
+# 2
+
+    * input of a new book into the library
+
+# 3
+    * loan/return a book
+
+# 4
+    * search for a book via title &&/|| author
+#}}}
